@@ -19,7 +19,7 @@ Based on the original InstantTranslate extension by Nick Moore.
 2. Click the settings icon to configure:
    - **API Key**: Your OpenAI-compatible API key (stored securely by PopClip)
    - **API Endpoint**: Full URL of your API endpoint (default: `https://api.openai.com/v1`)
-   - **Model**: The model to use (default: `gpt-5-mini`)
+   - **Model**: The model to use (default: `gpt-4.1-mini`).
    - **Destination Language**: Choose your target language from the dropdown
 
 ## Configuration Options
@@ -37,10 +37,11 @@ Provide the complete URL including protocol (http:// or https://).
 
 ### Model
 The language model to use for translation. Examples:
-- `gpt-5-mini` (default, latest mini model with good performance)
+- `gpt-4.1-mini` (default)
+- `gpt-5-nano`
 - Custom model names for other providers
 
-The default model is `gpt-5-mini` optimized for translation quality and speed.
+The default model is `gpt-4.1-mini` with both good quality and speed.
 
 ### Destination Language
 Select from 130+ supported languages including:

@@ -56,7 +56,7 @@ export const options = [
     identifier: 'apiModel',
     label: 'Model',
     type: 'string',
-    defaultValue: 'gpt-5-mini',
+    defaultValue: 'gpt-4.1-mini',
     description:
       'The model to use for translation.',
   },
